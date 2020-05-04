@@ -43,6 +43,7 @@ public class TestSample extends BaseClaseTest {
 	@Test
 	private void face() {
 		LoadUrl("https://www.facebook.com/");
+		driver.getTitle();
 		driver.getCurrentUrl();
 	}
 
