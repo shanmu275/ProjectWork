@@ -44,6 +44,7 @@ public class TestSample extends BaseClaseTest {
 	private void face() {
 		LoadUrl("https://www.facebook.com/");
 		driver.getTitle();
+		driver.getCurrentUrl();
 	}
 
 	@Parameters({"Email", "password"})
